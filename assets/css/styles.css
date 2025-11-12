@@ -762,7 +762,7 @@ body {
   height: 26px;
   transform: translate(-50%, -50%);
   content: "";
-  content: url("/assets/img/icons/flower.svg");
+  content: url("../img/icons/flower.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -974,7 +974,7 @@ body {
 
 .header__link:hover > .header__panel-title:after {
   transform: rotate(180deg);
-  background-image: url(/assets/img/icons/weui_arrow-red.png);
+  background-image: url(../img/icons/weui_arrow-red.png);
 }
 
 ul.header__menu-body {
@@ -1178,7 +1178,7 @@ ul.header__menu-body {
   height: 14px;
   position: absolute;
   content: "";
-  background-image: url(/assets/img/icons/weui_arrow.png);
+  background-image: url(../img/icons/weui_arrow.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1587,7 +1587,7 @@ li.header__submenu-link:last-child {
     transform: translateY(-50%);
     width: 14px;
     height: 14px;
-    background-image: url(/assets/img/icons/weui_arrow.png);
+    background-image: url(../img/icons/weui_arrow.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1595,17 +1595,17 @@ li.header__submenu-link:last-child {
   }
   .header__link:hover > .header__panel-title:after {
     transform: rotate(0deg);
-    background-image: url(/assets/img/icons/weui_arrow-red.png);
+    background-image: url(../img/icons/weui_arrow-red.png);
   }
   .header__panel-title.active .header__panel-title:after {
-    background-image: url(/assets/img/icons/weui_arrow-red.png);
+    background-image: url(../img/icons/weui_arrow-red.png);
     transform: rotate(180deg);
   }
   .header__panel-title.active::after {
     transform: rotate(180deg);
   }
   .header__panel-title.active::after {
-    background-image: url(/assets/img/icons/weui_arrow-red.png);
+    background-image: url(../img/icons/weui_arrow-red.png);
   }
   li.header__submenu-link:last-child {
     padding-bottom: 0px;
@@ -2232,7 +2232,7 @@ textarea.form-input {
   height: 26px;
   transform: translate(-50%, -50%);
   content: "";
-  background-image: url(/assets/img/icons/flower2.svg);
+  background-image: url(../img/icons/flower2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -2746,7 +2746,7 @@ textarea.form-input {
   height: 35px;
   bottom: 0;
   content: "";
-  content: url(/assets/img/icons/quotes.svg);
+  content: url(../img/icons/quotes.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3058,7 +3058,7 @@ textarea.form-input {
   height: 10px;
   width: 8px;
   content: "";
-  background-image: url(/assets/img/icons/next.svg);
+  background-image: url(../img/icons/next.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3069,7 +3069,7 @@ textarea.form-input {
 }
 
 .swiper-button-next:hover::before {
-  background-image: url(/assets/img/icons/next-red.svg);
+  background-image: url(../img/icons/next-red.svg);
 }
 
 .swiper-button-prev::before {
@@ -3077,7 +3077,7 @@ textarea.form-input {
   height: 10px;
   width: 8px;
   content: "";
-  background-image: url(/assets/img/icons/prev.svg);
+  background-image: url(../img/icons/prev.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3088,7 +3088,7 @@ textarea.form-input {
 }
 
 .swiper-button-prev:hover::before {
-  background-image: url(/assets/img/icons/prev-red.svg);
+  background-image: url(../img/icons/prev-red.svg);
 }
 
 .swiper-button-next:after,
@@ -3271,7 +3271,7 @@ textarea.form-input {
   height: 26px;
   transform: translate(-50%, -50%);
   content: "";
-  background-image: url(/assets/img/icons/flower2.svg);
+  background-image: url(../img/icons/flower2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3279,7 +3279,7 @@ textarea.form-input {
 }
 
 .btn__secondary:hover .btn__secondary-img::after {
-  background-image: url(/assets/img/icons/flower-hover.svg);
+  background-image: url(../img/icons/flower-hover.svg);
 }
 
 .btn__secondary:hover .btn__secondary-img {
@@ -3608,7 +3608,7 @@ textarea.form-input {
   content: "";
   width: 10px;
   height: 8px;
-  background-image: url(/assets/img/icons/btn.svg);
+  background-image: url(../img/icons/btn.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3704,7 +3704,7 @@ textarea.form-input {
   transform: translate(-50%, -50%);
   width: 32px;
   height: 32px;
-  background-image: url(/assets/img/icons/doc-next.svg);
+  background-image: url(../img/icons/doc-next.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3894,7 +3894,7 @@ textarea.form-input {
   height: 0px;
   transform: translate(-50%, -50%);
   content: "";
-  background-image: url(/assets/img/icons/search.svg);
+  background-image: url(../img/icons/search.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3909,7 +3909,7 @@ textarea.form-input {
   height: 0px;
   transform: translate(-50%, -50%);
   content: "";
-  background-image: url(/assets/img/icons/video.png);
+  background-image: url(../img/icons/video.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4010,7 +4010,7 @@ textarea.form-input {
   width: 90px;
   height: 109px;
   content: "";
-  background-image: url(/assets/img/icons/bac-lic.svg);
+  background-image: url(../img/icons/bac-lic.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 15px;
@@ -4026,7 +4026,7 @@ textarea.form-input {
   width: 28px;
   height: 28px;
   content: "";
-  background-image: url(/assets/img/icons/lic-ok.svg);
+  background-image: url(../img/icons/lic-ok.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4197,19 +4197,19 @@ textarea.form-input {
 }
 
 .contacts__item:nth-child(1) .contacts__item-img::after {
-  background-image: url(/assets/img/icons/phones.svg);
+  background-image: url(../img/icons/phones.svg);
 }
 
 .contacts__item:nth-child(2) .contacts__item-img::after {
-  background-image: url(/assets/img/icons/loc.svg);
+  background-image: url(../img/icons/loc.svg);
 }
 
 .contacts__item:nth-child(3) .contacts__item-img::after {
-  background-image: url(/assets/img/icons/time.svg);
+  background-image: url(../img/icons/time.svg);
 }
 
 .contacts__item:nth-child(4) .contacts__item-img::after {
-  background-image: url(/assets/img/icons/text.svg);
+  background-image: url(../img/icons/text.svg);
 }
 
 .socials__items {
@@ -4243,16 +4243,16 @@ textarea.form-input {
 }
 
 .socials__item--tg::after {
-  background-image: url(/assets/img/icons/tg.svg);
+  background-image: url(../img/icons/tg.svg);
 }
 
 .socials__item--wha::after {
-  background-image: url(/assets/img/icons/wha.svg);
+  background-image: url(../img/icons/wha.svg);
   height: 18px;
 }
 
 .socials__item--vk::after {
-  background-image: url(/assets/img/icons/vk.svg);
+  background-image: url(../img/icons/vk.svg);
   width: 20px;
   height: 12px;
 }
@@ -4279,16 +4279,16 @@ textarea.form-input {
 }
 
 .socials__item--tg:hover::after {
-  background-image: url(/assets/img/icons/tg-white.svg);
+  background-image: url(../img/icons/tg-white.svg);
 }
 
 .socials__item--wha:hover::after {
-  background-image: url(/assets/img/icons/wha-white.svg);
+  background-image: url(../img/icons/wha-white.svg);
   height: 18px;
 }
 
 .socials__item--vk:hover::after {
-  background-image: url(/assets/img/icons/vk-white.svg);
+  background-image: url(../img/icons/vk-white.svg);
   width: 20px;
   height: 12px;
 }
@@ -4486,7 +4486,7 @@ textarea.form-input {
 }
 
 .pdf-link:hover .pdf-link__img:before {
-  background-image: url(/assets/img/icons/loads-red.svg);
+  background-image: url(../img/icons/loads-red.svg);
 }
 
 .pdf-link:active {
@@ -4498,7 +4498,7 @@ textarea.form-input {
   display: block;
   width: 52px;
   height: 52px;
-  background-image: url(/assets/img/icons/loads.svg);
+  background-image: url(../img/icons/loads.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4654,7 +4654,7 @@ textarea.form-input {
   display: block;
   width: 18px;
   height: 18px;
-  background-image: url(/assets/img/icons/date.svg);
+  background-image: url(../img/icons/date.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4849,7 +4849,7 @@ textarea.form-input {
   content: "";
   width: 8px;
   height: 6px;
-  background-image: url(/assets/img/icons/btn.svg);
+  background-image: url(../img/icons/btn.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4863,7 +4863,7 @@ textarea.form-input {
   content: "";
   width: 519px;
   height: 457px;
-  background-image: url(/assets/img/icons/flow-big.png);
+  background-image: url(../img/icons/flow-big.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4934,7 +4934,7 @@ textarea.form-input {
   width: 177px;
   height: 137px;
   content: "";
-  background-image: url(/assets/img/icons/flow.png);
+  background-image: url(../img/icons/flow.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -5105,7 +5105,7 @@ textarea.form-input {
     bottom: -32px;
     left: 0;
     width: 106px;
-    background-image: url(/assets/img/icons/flow-mob.png);
+    background-image: url(../img/icons/flow-mob.png);
     border-radius: 20px;
     overflow: hidden;
   }
@@ -5343,7 +5343,7 @@ textarea.form-input {
   top: 25px;
   height: 6px;
   content: "";
-  background-image: url(/assets/img/icons/next-calcu.png);
+  background-image: url(../img/icons/next-calcu.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -5351,7 +5351,7 @@ textarea.form-input {
 }
 
 .select__trigger:hover::after {
-  background-image: url(/assets/img/icons/next-rose.png);
+  background-image: url(../img/icons/next-rose.png);
 }
 
 .calculator__item.active .select__trigger {
@@ -5445,7 +5445,7 @@ textarea.form-input {
   bottom: 0;
   top: 0;
   content: "";
-  background-image: url(/assets/img/icons/checkbox.png);
+  background-image: url(../img/icons/checkbox.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -5458,7 +5458,7 @@ textarea.form-input {
 }
 
 .select__option.changed:first-child .option__checkbox::after {
-  background-image: url(/assets/img/icons/checkbox-none.png);
+  background-image: url(../img/icons/checkbox-none.png);
 }
 
 .calculator__btn {
@@ -6249,7 +6249,7 @@ textarea.form-input {
   width: 13px;
   height: 17px;
   content: "";
-  background-image: url("/assets/img/icons/arrow-foot.svg");
+  background-image: url("../img/icons/arrow-foot.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -6262,7 +6262,7 @@ textarea.form-input {
 
 .footer__item.active .footer__item-toggle {
   transform: rotate(180deg);
-  background-image: url("/assets/img/icons/arrow-footred.svg");
+  background-image: url("../img/icons/arrow-footred.svg");
 }
 
 .footer__item.active .footer__item-list {
@@ -6587,7 +6587,7 @@ textarea.form-input {
 }
 
 .checkbox input[type=checkbox]:checked + .checkbox-mark {
-  background-image: url("/assets/img/icons/check.svg");
+  background-image: url("../img/icons/check.svg");
 }
 
 @media (width > 1021px) {
@@ -6607,7 +6607,7 @@ textarea.form-input {
     background-color: var(--main---rose-700);
   }
   .header__sublink:hover .header__panel-title::after {
-    background-image: url(/assets/img/icons/arrow-Icon.svg);
+    background-image: url(../img/icons/arrow-Icon.svg);
     width: 20px;
     height: 20px;
     transform: rotate(360deg);
@@ -8220,7 +8220,7 @@ textarea.form-input {
   height: 40px;
   position: absolute;
   content: "";
-  background-image: url(/assets/img/icons/servbtn.png);
+  background-image: url(../img/icons/servbtn.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -8230,7 +8230,7 @@ textarea.form-input {
 }
 
 .section-services__item:hover .section-services__item-btn::after {
-  background-image: url(/assets/img/icons/servbtnred.png);
+  background-image: url(../img/icons/servbtnred.png);
 }
 
 @media (width < 1021px) {
@@ -8639,7 +8639,7 @@ textarea.form-input {
   height: 35px;
   position: absolute;
   content: "";
-  background-image: url(/assets/img/icons/blockquote1.png);
+  background-image: url(../img/icons/blockquote1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -8652,7 +8652,7 @@ textarea.form-input {
   height: 35px;
   position: absolute;
   content: "";
-  background-image: url(/assets/img/icons/blockquote.png);
+  background-image: url(../img/icons/blockquote.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
